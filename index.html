@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="flipkartlogo">
+            <img src="./navbaricon/flipkartlogo.svg" alt="">
+        </div>
+        <div class="searchBar">
+            <div class="searchIcon"><img src="./navbaricon/srchicon.svg" alt=""></div>
+            <div class="searchForm">
+                <form action="">
+                    <input type="search" placeholder="Search For Products, Brands and More">
+                </form>
+            </div>
+        </div>
+        <div class="navbarLogin">
+            <div class="ProfileIcon"><img src="./navbaricon/loginicon.svg" alt=""></div>
+            <div>
+                <a href="#">Login</a>
+            </div>
+            <div><img src="./navbaricon/downarrowicon.svg" alt=""></div>
+
+        </div>
+        <div class="navbarShopping">
+            <div class="cart"><img src="./navbaricon/carticon.svg" alt="">
+                <a href="#">Cart</a>
+            </div>
+        </div>
+        <div class="store">
+            <img src="./navbaricon/store.svg" alt="">
+            <a href="#">Become a seller</a>
+        </div>
+        <div>
+            <div class="navbarStore">
+                <img src="./navbaricon/verticaldots.svg" alt="">
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <!-- small images start -->
+    <div class="container">
+        <div class="product"><img src="./img/offer1.jpg" alt=""><a href="#">Top offer</a></div>
+
+        <div class="product"><img src="./img/mobile.jpg" alt=""><a href="#">Mobile & Tablets</a></div>
+
+        <div class="product"><img src="./img/appliances.jpg" alt=""><a href="#">TVs & Appliances</a></div>
+
+        <div class="product"><img src="./img/electronics.jpg" alt=""><a href="#">Electronics</a></div>
+
+        <div class="product"><img src="./img/fashion.jpg" alt=""><a href="#">Fashion</a></div>
+
+        <div class="product"><img src="./img/homekitchn.jpg" alt=""><a href="#">Home & Kitchen</a></div>
+
+        <div class="product"><img src="./img/furniture.jpg" alt=""><a href="#">Furniture</a></div>
+
+        <div class="product"><img src="./img/travl.jpg" alt=""><a href="#">Travel</a></div>
+
+        <div class="product"><img src="./img/beauty.jpg" alt=""><a href="#">Beauty</a></div>
+
+        <div class="product"><img src="./img/grocry.jpg" alt=""><a href="#">Grocery</a></div>
+    </div>
+
+    <!-- small images end -->
+
+    <!-- slider start -->
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="./slides/img1.jpg" alt=""></div>
+        <div class="item"><img src="./slides/img2.jpg" alt=""></div>
+        <div class="item"><img src="./slides/img3.jpg" alt=""></div>
+        <div class="item"><img src="./slides/img4.jpeg" alt=""></div>
+        <div class="item"><img src="./slides/img5.jpg" alt=""></div>
+        <div class="item"><img src="./slides/img6.jpg" alt=""></div>
+        <div class="item"><img src="./slides/img7.jpg" alt=""></div>
+        <div class="item"><img src="./slides/img8.jpg" alt=""></div>
+        <div class="item"><img src="./slides/img9.jpeg" alt=""></div>
+        <div class="item"><img src="./slides/d8b7665270aee331.jpg" alt=""></div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <!-- end of slider -->
+
+    <!-- best of electronics -->
+
+    <div class="productContainer">
+        <div class="productheading">
+            <h1>Best Of Electronics</h1>
+
+        </div>
+        <div class="outerContainer">
+            <div class="leftproductContainer">
+                <div class="productitems">
+                    <img src="./productimg/earbuds.jpeg" alt="">
+                    <div class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/blt.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/camera.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/keyboard.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/quickheal.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="rightproductContainer">
+                <img src="./productimg/travl.jpg" alt="">
+            </div> -->
+
+
+        </div>
+
+
+    </div>
+
+    <!-- Beauty Food And Toys -->
+    <div class="productContainer">
+        <div class="productheading">
+            <a href=""style="text-decoration: none; font-size: 20px; letter: spacing 2px; color: black; margin: 0; padding: 0;">Beauty Food, Toys And More</a>
+
+        </div>
+        <div class="outerContainer">
+            <div class="leftproductContainer">
+                <div class="productitems">
+                    <img src="./productimg/earbuds.jpeg" alt="">
+                    <div class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/blt.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/camera.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/keyboard.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/quickheal.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+                <div class="productitems">
+                    <img src="./productimg/quickheal.jpeg" alt="">
+                    <div  class="productslink">
+                        <a href="">Best Truewireless Headph..</a>
+                        <a href="">Grab Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Monsoon Essentials -->
+     <div class="monsoonmainContainer">
+        <div class="monsoonLeftContainer">
+            <div class="monsoonHeading" style="padding-top: 0px;">
+                <p style="margin: 20px; font-size: 28px;color: black;padding-left: 20px;">Monsoon Essentials</p>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="monsoonImage">
+                        <img src="./productimg/samsungG.jpeg" alt=""style="width: 150px;height: 150px;">
+                    </div>
+                    <a href="">Mobiles</a>
+                    <br>
+                    <a href="">Min.50% Off</a>
+                </div>
+                <div class="col">
+                    <div class="monsoonImage">
+                        <img src="./productimg/slipper.jpeg" alt=""style="width: 150px;height: 150px;">
+                    </div>
+                    <a href="">Mobiles</a>
+                    <br>
+                    <a href="">Min.50% Off</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="monsoonImage">
+                        <img src="./productimg/torch.jpeg" alt=""style="width: 150px;height: 150px;">
+                    </div>
+                    <a href="">Mobiles</a>
+                    <br>
+                    <a href="">Min.50% Off</a>
+                </div>
+                <div class="col">
+                    <div class="monsoonImage">
+                        <img src="./productimg/bag.jpeg" alt=""style="width: 150px;height: 150px;">
+                    </div>
+                    <a href="">Mobiles</a>
+                    <br>
+                    <a href="">Min.50% Off</a>
+                </div>
+            </div>
+        </div>
+        <div class="monsoonRightContainer">
+        </div>
+     </div>
+
+     <!-- Third Product -->
+      <div class="bigContainer">
+        <div class="essentialLeftContainer">
+            <div class="Heading" style="padding-top: 0px;">
+                <p style="margin: 20px; font-size: 28px; color: black; padding-left: 20px;">Sport & Fitness Essentials</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/T Shirt.jpeg" alt="" style="width: 90px;height: 150px;">
+                    </div>
+                    <a href="">Men's Tshirts</a>
+                    <br>
+                    <a href="">Bestsellers</a>
+                </div>
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/blackboat.jpeg" alt="" style="width: 90px;height: 150px;">
+                    </div>
+                    <a href="">True Wireless</a>
+                    <br>
+                    <a href="">New Range</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/sando.jpeg" alt="" style="width: 90px;height: 150px;">
+                    </div>
+                    <a href="">Men's Vest</a>
+                    <br>
+                    <a href="">Min.50% Off</a>
+                </div>
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/bag2.jpeg" alt="" style="width: 90px;height: 150px;">
+                    </div>
+                    <a href="">Backpacks</a>
+                    <br>
+                    <a href="">Bestsellers</a>
+                </div>
+            </div>
+        </div>
+        <div class="middleessentialContainer">
+            <div class="Heading" style="padding-top: 0px;">
+                <p style="margin: 20px;font-size: 28px;color: black;padding-left: 20px;">Monsoon-Ready Style</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/slipperblack.jpeg" alt="" style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">Men's Tshirts</a>
+                    <br>
+                    <a href="">Bestsellers</a>
+                </div>
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/googles.jpeg" alt="" style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">True Wireless</a>
+                    <br>
+                    <a href="">New Range</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/sandal brown.jpeg" alt="" style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">Men's Vest</a>
+                    <br>
+                    <a href="">Min.50% Off</a>
+                </div>
+                <div class="col">
+                    <div class="essentialImage">
+                        <img src="./productimg/chain.jpeg" alt="" style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">Backpacks</a>
+                    <br>
+                    <a href="">Bestsellers</a>
+                </div>
+            </div>
+        </div>
+        <div class="rightessentialContainer">
+            <div class="Heading3" style="padding-top: 0px;">
+                <p style="margin: 20px;font-size: 28px;color: black;padding-left: 20px;">Best Gadget & Appliances</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="applianceimage">
+                        <img src="./productimg/trimmer.jpeg" alt="" style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">T Shirt</a>
+                    <br>
+                    <a href="">Best Deal</a>
+                </div>
+                <div class="col">
+                    <div class="applianceimage">
+                        <img src="./productimg/laptop.jpeg" alt="" style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">T Shirt</a>
+                    <br>
+                    <a href="">Best Deal</a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="applianceimage">
+                        <img src="./productimg/lead.jpeg" alt=""style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">T Shirt</a>
+                    <br>
+                    <a href="">Best Deal</a>
+
+                </div>
+                <div class="col">
+                    <div class="applianceimage">
+                        <img src="./productimg/microvave.jpeg" alt=""style="width: 110px;height: 150px;">
+                    </div>
+                    <a href="">T Shirt</a>
+                    <br>
+                    <a href="">Best Deal</a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
